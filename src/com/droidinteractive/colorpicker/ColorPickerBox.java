@@ -1,0 +1,65 @@
+package com.droidinteractive.colorpicker;
+/*
+ * Copyright (c) 2010 Ragdoll Games
+ * Copyright (c) 2010-2014 Droid Interactive
+ * Copyright (c) 2010-2014 IDKJava Team
+ * 
+ * This file is part of Particle Play.
+ * 
+ * Particle Play is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Particle Play is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Particle Play. If not, see <http://www.gnu.org/licenses/>.
+ */
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.ComposeShader;
+import android.graphics.LinearGradient;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.Shader;
+import android.graphics.Shader.TileMode;
+import android.util.AttributeSet;
+import android.view.View;
+
+public class ColorPickerBox extends View {
+	Paint paint;
+	Shader luar;
+	final float[] color = { 1.f, 1.f, 1.f };
+
+	public ColorPickerBox(Context context, AttributeSet attrs) {
+		super(context, attrs);
+	}
+
+	public ColorPickerBox(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+	}
+
+	@SuppressLint("DrawAllocation") @Override protected void onDraw(Canvas canvas) {
+		super.onDraw(canvas);
+		if (paint == null) {
+			paint = new Paint();
+			luar = new LinearGradient(0.f, 0.f, 0.f, this.getMeasuredHeight(), 0xffffffff, 0xff000000, TileMode.CLAMP);
+		}
+		int rgb = Color.HSVToColor(color);
+		Shader dalam = new LinearGradient(0.f, 0.f, this.getMeasuredWidth(), 0.f, 0xffffffff, rgb, TileMode.CLAMP);
+		ComposeShader shader = new ComposeShader(luar, dalam, PorterDuff.Mode.MULTIPLY);
+		paint.setShader(shader);
+		canvas.drawRect(0.f, 0.f, this.getMeasuredWidth(), this.getMeasuredHeight(), paint);
+	}
+
+	void setHue(float hue) {
+		color[0] = hue;
+		invalidate();
+	}
+}

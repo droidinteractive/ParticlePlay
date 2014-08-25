@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="fix_me_button">Reset!</string>
+<string name="fix_me_string">Fixing issues preventing startup...</string>
+<string name="fix_me_temp_sav"></string>
+<string name="fix_me_temp_sav_failed">ERROR!</string>
+<string name="fix_me_temp_sav_succeeded">Fixed!</string>
+<string name="fix_me_done">Press Back to return to Main Menu.</string>
+</resources>

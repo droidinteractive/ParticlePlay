@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="custom_particles">Particle Editor</string>
+<string name="edit">Edit</string>
+<string name="create_particle">Create Particle</string>
+<string name="select_particle">Choose particle to edit:</string>
+<string name="no_particle">There are no particles to edit.</string>
+<string name="basic_tab">Basic</string>
+<string name="advanced_tab">Advanced</string>
+<string name="ce_name_prompt">Name:</string>
+<string name="ce_base_particle_prompt">Base Particle:</string>
+<string name="ce_starting_temp_prompt">Starting Temperature:</string>
+<string name="ce_lowest_temp_prompt">Lowest Temperature:</string>
+<string name="ce_highest_temp_prompt">Highest Temperature:</string>
+<string name="ce_lower_particle_prompt">Lower particle:</string>
+<string name="ce_higher_particle_prompt">Higher particle:</string>
+<string name="ce_red_prompt">Red:</string>
+<string name="ce_green_prompt">Green:</string>
+<string name="ce_blue_prompt">Blue:</string>
+<string name="ce_density_prompt">Density:</string>
+<string name="ce_fallvel_prompt">Freefall Velocity</string>
+<string name="ce_inertia_prompt">Inertia:</string>
+<string name="custom_particle_name_hint">Particle name</string>
+<string name="ce_save_button">Save and Exit</string>
+<string name="ce_unmovable_prompt">Unmovable</string>
+<string name="ce_load_failed_msg">Sorry, this particle file seems to be corrupt. Please try another particle.</string>
+<string name="ce_state_prompt">State:</string>
+<string name="ce_solid_state">Solid</string><string name="ce_liquid_state">Liquid</string><string name="ce_gas_state">Gas</string>
+<string name="ce_save_success">Successfully saved particle to </string>
+<string name="ce_save_failed">Failed to save particle, make sure your SD card is inserted and mounted.</string>
+<string name="collisions_heading">Collision Properties:</string>
+<string name="specials_heading">Special Properties:</string>
+<string name="no_special_val">No value needed.</string>
+<string name="ce_empty_name_error">Error: Name cannot be empty!</string>
+</resources>

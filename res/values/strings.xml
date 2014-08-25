@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Particle Play</string>
+    <string name="particle_prompt">Which Custom Particle?</string>
+    <string name="custom_particle_title">Custom Particle Maker</string>
+    <string name="sand_prompt">How to react with sand:</string>
+    <string name="water_prompt">How to react with water:</string>
+    <string name="wall_prompt">How to react with wall:</string>
+    <string name="plant_prompt">How to react with plant:</string>
+    <string name="fire_prompt">How to react with fire:</string>
+    <string name="ice_prompt">How to react with ice:</string>
+    <string name="oil_prompt">How to react with oil:</string>
+    <string name="lava_prompt">How to react with lava:</string>
+    <string name="stone_prompt">How to react with stone:</string>
+    <string name="C4_prompt">How to react with C4:</string>
+    <string name="Hydrogen_prompt">How to react with Hydrogen:</string>
+    <string name="Fuse_prompt">How to react with fuse:</string>
+    <string name="Drywall_prompt">How to react with drywall:</string>
+    <string name="Acid_prompt">How to react with acid:</string>
+    <string name="Steam_prompt">How to react with steam:</string>
+    <string name="Salt_prompt">How to react with salt:</string>
+    <string name="SaltWater_prompt">How to react with salt water:</string>
+    <string name="Glass_prompt">How to react with glass:</string>
+    <string name="CustomParticle_prompt">How to react with custom particle:</string>
+    <string name="Mud_prompt">How to react with mud:</string>
+    <string name="explonesstext">Explosiveness:</string>
+    <string name="colortext">Color:</string>
+    <string name="redtext">Red:</string>
+    <string name="bluetext">Blue:</string>
+    <string name="greentext">Green:</string>
+    <string name="densitytext">Density:</string>
+    <string name="reaction_prompt">Select Reaction Type?</string>
+    <string name="app_intro">Welcome to Particle Play! If you experience display issues, check your settings under preferences. Submit bugs to: code@droidinteractive.com.</string>
+    <string name="brush_size_picker">Brush Size Picker</string>
+    <string name="particle_picker">Choose Particle Type</string>
+    <string name="proceed">Proceed</string>
+    <string name="exit">Exit</string>
+    <string name="restart_app">Please restart app for your changes to go into effect.</string>
+    <string name="exit_text">Exit</string>
+    <string name="how_to_play_title">How to Play</string>
+    <string name="start_game_button">Play Game</string>
+    <string name="how_to_play_button">How to Play</string>
+    <string name="about_button">About</string>
+    <string name="about_string">Particle Play\n\nCopyright (c)2010 Ragdoll Games\nCopyright (c)2010-2014 Droid Interactive\nhttps://github.com/droidinteractive/ParticlePlay\n\nOriginal Source Code by the IDKJava Team\nhttps://github.com/IDKJava/the-elements\n\nReleased under GPLv3\nhttp://www.gnu.org/licenses/gpl-3.0.html</string>
+    <string name="custom_particles_button">Particle Editor</string>
+    <string name="sdcard_not_found">Warning: SD Card inaccessible. You will not be able to save or load.</string>
+    <string name="eraser">Eraser</string>
+    <string name="clear_screen">Clear Screen</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="toggle_size">Toggle Size</string>
+    <string name="load">Load</string>
+    <string name="preferences">Preferences</string>
+    <string name="brush_size_text">4</string>
+    <string name="temp_text">100</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <!-- Preferences -->
+    <string name="pref_category">Category</string>
+    <string name="color1_title">Color 1</string>
+    <string name="color1_summary">black color by default, set by reference</string>
+    <string name="color2_title">Color 2</string>
+    <string name="color2_summary">not persistent color\nalpha slider added via code</string>
+    <string name="color3_title">Color 3</string>
+    <string name="color3_summary">picker with alpha slider</string>
+    <string name="color4_title">Color 4</string>
+    <string name="color4_summary">color set with HEX code in xml</string>
+    <string name="Menu">Menu
+</string>
+</resources>

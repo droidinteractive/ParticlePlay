@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/load_state_scrollview_bg">
+    <ToggleButton
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:text="ToggleButton"
+        android:layout_height="wrap_content"
+        android:id="@+id/customToggle" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/customToggle"
+        android:layout_toRightOf="@+id/customToggle"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:id="@+id/editButton"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp" />
+</RelativeLayout>

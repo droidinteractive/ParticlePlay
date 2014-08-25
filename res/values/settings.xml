@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_zoom_entries">
+        <item>ULTRA</item>
+        <item>HIGH</item>
+        <item>MEDIUM</item>
+        <item>LOW</item>
+    </string-array>
+    
+    <string-array name="screen_zoom_entry_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    
+    <string-array name="accelerometer_rotate">
+        <item>0 (normal)</item>
+        <item>90 (right)</item>
+        <item>-90 (left)</item>
+        <item>180</item>
+    </string-array>
+    
+        <string-array name="accelerometer_rotate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
