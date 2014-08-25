@@ -33,7 +33,7 @@
             android:layout_alignParentTop="true"  
             android:layout_gravity="center"           
             ads:adSize="SMART_BANNER"
-            ads:adUnitId="ca-app-pub-8108838033541538/4222559206"
+            ads:adUnitId="UNIT_ID_HERE"
             android:gravity="top"
             />
             

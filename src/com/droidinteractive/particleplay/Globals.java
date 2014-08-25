@@ -20,5 +20,5 @@ package com.droidinteractive.particleplay;
  * along with Particle Play. If not, see <http://www.gnu.org/licenses/>.
  */
 public class Globals {
-	public static String admobPublisherId = "a14f35a5e050b67";
+	public static String admobPublisherId = "ADMOB_ID_HERE";
 }
